@@ -19,11 +19,17 @@ const geistMono = Geist_Mono({
 });
 
 // =======================
-// METADATA
+// METADATA (Favicon dan Judul Tab disetel di sini)
 // =======================
 export const metadata: Metadata = {
   title: "JobKu: Platform Lowongan Kerja Terbaik",
   description: "Temukan pekerjaan impian Anda dengan JobKu.",
+  
+  // WAJIB: Menambahkan properti 'icons' untuk menggantikan favicon default Next.js.
+  // Next.js akan otomatis menggunakan file 'icon.tsx' di root /app.
+  icons: {
+    icon: '/icon.png', 
+  },
 };
 
 // =======================
@@ -51,7 +57,8 @@ export default function RootLayout({
           </div>
 
           {/* MAIN CONTENT */}
-          <main className="container mx-auto px-4 pt-[100px] md:pt-[120px] min-h-screen">
+          {/* Tambahkan pt-[80px] untuk mengimbangi header fixed */}
+          <main className="container mx-auto px-4 pt-[80px] md:pt-[100px] min-h-screen">
             {children}
           </main>
         </ThemeProvider>
