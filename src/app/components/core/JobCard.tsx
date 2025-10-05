@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useRouter } from "next/navigation";
-import { Job } from "@/app/api/JobAPI";
+import { Job } from "@/app/api/data/JobAPI";
 import { ArrowRight, DollarSign, MapPin, Calendar, HardHat } from "lucide-react";
 
 const formatCurrency = (amount: number): string => {

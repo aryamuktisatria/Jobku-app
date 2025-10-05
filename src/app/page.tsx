@@ -1,9 +1,9 @@
-import Hero from "@/app/components/Hero/Hero";
-import AboutSection from "@/app/components/AboutSection";
-import Testimoni from "@/app/components/Testimoni";
-import JobsSection from "@/app/components/JobsSection";
-import ContactMe from "@/app/components/ContactMe";
-import Footer from "@/app/components/Footer"; // Import Footer
+import Hero from "@/app/components/core/Hero";
+import AboutSection from "@/app/components/sections/AboutSection";
+import Testimoni from "@/app/components/core/Testimoni";
+import JobsSection from "@/app/components/sections/JobsSection";
+import ContactMe from "@/app/components/core/ContactMe";
+import Footer from "@/app/components/layout/Footer"; // Import Footer
 
 export default function Home() {
   return (

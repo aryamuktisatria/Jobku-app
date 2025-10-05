@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { Send, Mail, User, MessageSquare, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
-import Waves from "@/components/Waves";
+import Waves from "@/app/components/ui/Waves";
 
 const ContactMe = () => {
   const [state, handleSubmit] = useForm("mblkrbbv");

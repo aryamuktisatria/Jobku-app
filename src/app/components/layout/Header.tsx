@@ -2,10 +2,10 @@
 "use client"; // PENTING: Mengubahnya menjadi Client Component
 
 import dynamic from 'next/dynamic';
-import { CardNavItem } from '@/app/components/Navbar/CardNav';
+import { CardNavItem } from '@/app/components/navbar/CardNav';
 
 // Dynamic import CardNav karena CardNav adalah Client Component (menggunakan GSAP & hooks)
-const CardNav = dynamic(() => import('@/app/components/Navbar/CardNav'), {
+const CardNav = dynamic(() => import('@/app/components/navbar/CardNav'), {
   ssr: false, 
   // Biarkan CardNav dimuat tanpa placeholder karena CardNav menangani posisinya sendiri
 });

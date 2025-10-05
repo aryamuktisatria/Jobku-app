@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { fetchAllJobs, Job } from "@/app/api/JobAPI";
+import { fetchAllJobs, Job } from "@/app/api/data/JobAPI";
 import { 
   DollarSign, 
   MapPin, 

@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { fetchFeaturedJobs, Job } from "@/app/api/JobAPI";
-import JobCard from "@/app/components/JobCard";
+import { fetchFeaturedJobs, Job } from "@/app/api/data/JobAPI";
+import JobCard from "@/app/components/core/JobCard";
 import { BriefcaseBusiness, ArrowRight } from "lucide-react";
 import { useRouter } from "next/navigation";
 

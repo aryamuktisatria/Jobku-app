@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-import { Header } from "@/app/components/layout/Header/Header";
+import "./styles/globals.css";
+import { Header } from "@/app/components/layout/Header";
 import { ThemeProvider } from "next-themes";
-import ThemeToggle from "@/app/components/ThemeToggle";
+import ThemeToggle from "@/app/components/ui/ThemeToggle";
 
 // =======================
 // FONT SETUP

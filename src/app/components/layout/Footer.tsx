@@ -11,7 +11,7 @@ import {
   ArrowUp,
   Code
 } from "lucide-react";
-import ShinyText from "./ShinyText"; // Perbaiki import path
+import ShinyText from "@/app/components/ui/ShinyText"; 
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

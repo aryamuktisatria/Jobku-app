@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useParams } from "next/navigation";
-import JobDetail from "@/app/components/JobDetail";
+import JobDetail from "@/app/components/core/JobDetail";
 
 const JobDetailPage = () => {
   const params = useParams();
