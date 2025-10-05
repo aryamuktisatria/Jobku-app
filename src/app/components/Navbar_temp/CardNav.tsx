@@ -4,7 +4,7 @@ import React, { useLayoutEffect, useRef, useState, useCallback } from 'react';
 import { gsap } from 'gsap';
 import { GoArrowUpRight } from 'react-icons/go';
 import Link from 'next/link';
-import { BriefcaseIcon } from "@/app/components/navbar/BriefcaseIcon";
+import { BriefcaseIcon } from "@/app/components/Navbar_temp/BriefcaseIcon";
 
 // --- (TYPES) ---
 type CardNavLink = {
